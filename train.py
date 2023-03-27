@@ -7,13 +7,13 @@ Created on Mon Dec 12 19:47:38 2022
 import time
 old_time = time.time()
 
-import math #常用数学常量及公式
-import numpy as np #矩阵计算包
+import math 
+import numpy as np 
 
 # Reading/Writing Data
 import pandas as pd #like Excel
-import os #输入输出
-import csv #处理csv
+import os 
+import csv 
 import scipy.io as scio
 
 
@@ -35,7 +35,7 @@ def same_seed(seed):
     :param seed: choose a lucky number
     :return:
     """
-    torch.backends.cudnn.deterministic = True #固定框架的种子
+    torch.backends.cudnn.deterministic = True 
     torch.backends.cudnn.benchmark = False
     np.random.seed(seed)
     torch.manual_seed(seed)
