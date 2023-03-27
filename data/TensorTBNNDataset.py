@@ -24,7 +24,7 @@ class TensorTBNN(Dataset):
         self.y = torch.FloatTensor(y)
         
 
-    def __getitem__(self, idx):#在dataloader里面会用下表索引循环来load，所以要建立getitem
+    def __getitem__(self, idx):
 
         return self.x[idx], self.x1[idx], self.y[idx]
 
@@ -37,7 +37,7 @@ class TensorTBNN(Dataset):
 def main():
     dir = 'traindata_all.mat'
     data = scio.loadmat(dir);
-    x = data['anisotropyRSFU_all']; #三次函数 test
+    x = data['anisotropyRS_all']; 
     y = data['invariants_5'];  
     y1 = data['Tensorbasis'];  
     data = TensorTBNN(y, y1, x)
