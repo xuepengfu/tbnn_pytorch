@@ -12,7 +12,7 @@ option.py: change hyperparemeters.
 
 exe.py: training Neural Networks with different hyperparameters.
 
-Code is develped based on：
+Code is mainly develped based on：
 
 - Python 3.8.13
 - Pytorch 1.12.1
