@@ -11,3 +11,9 @@ traindata_all.mat is the data with anisotropyRS_all, invarants_5 and Tensorbasis
 option.py: change hyperparemeters.
 
 exe.py: training Neural Networks with different hyperparameters.
+
+Code is develped based on：
+
+- Python 3.8.13
+- Pytorch 1.12.1
+- numpy 1.23.3
