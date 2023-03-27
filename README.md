@@ -4,7 +4,7 @@ The fluid data can be obtained from kinds of various sources ($.dat$, $.cas$ or 
 
 The codes here are shown after prepocessing. The prepocessing procudure can be found in Ling et al.(2016) https://github.com/tbnn/tbnn.
 
-traindata_all.mat is the data with anisotropyRS_all, invarants_5 and Tensorbasis (after preprocess)
-/model: different MLP model for training.
-option.py: change hyperparemeters
+traindata_all.mat is the data with anisotropyRS_all, invarants_5 and Tensorbasis (after preprocess)\\
+/model: different MLP model for training.\\
+option.py: change hyperparemeters.\\
 exe.py: training Neural Networks with different hyperparameters.
