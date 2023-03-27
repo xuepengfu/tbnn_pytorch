@@ -13,7 +13,7 @@ from torch.utils.data import random_split
 
 def get_data(args):
     tempdata = scio.loadmat(args.datapath)
-    x, x1, y = tempdata['invariants_5'], tempdata['Tensorbasis'], tempdata['anisotropyRSFU_all']
+    x, x1, y = tempdata['invariants_5'], tempdata['Tensorbasis'], tempdata['anisotropyRS_all']
     return x, x1, y
 
 
